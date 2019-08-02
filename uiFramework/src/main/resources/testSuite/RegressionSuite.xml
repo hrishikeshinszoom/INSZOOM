@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+    <!-- <listeners>
+        <listener class-name="com.uiFramework.inszoom.regrationTesting.helper.listener.RetryListener"></listener>
+        <listener class-name="com.uiFramework.inszoom.regrationTesting.helper.listener.ExtentListener"></listener>
+    </listeners> -->
+   
+    <test name="RegrationSuite" >
+        <classes>
+            <class name="com.uiFramework.inszoom.regrationTesting.testScripts.RegrationSuite"></class>
+        </classes>
+    </test>
+    
+</suite>
