@@ -1,21 +1,26 @@
-2019-08-02 16:08:179 INFO  TestBase:110 - Initialize Web driver: 2108763062
-2019-08-02 16:08:187 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-02 16:08:187 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
-2019-08-02 16:08:201 INFO  WaitHelper:142 - Waiting for page to load for: SECONDS seconds
-2019-08-02 16:08:208 INFO  WaitHelper:144 - Page is loaded.
-2019-08-02 16:08:383 INFO  TestBase:61 - **************testLoginToApplicationStarted***************
-2019-08-02 16:08:274 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-02 16:08:314 INFO  WaitHelper:154 - waiting for :[[ChromeDriver: chrome on XP (407104086cc8a2d913d63a3c90dd6087)] -> xpath: //*[@id='inszoom_global']/img] for :200 seconds
-2019-08-02 16:08:367 INFO  WaitHelper:157 - element is visible now
-2019-08-02 16:08:367 INFO  LoginPage:40 - Homepage loaded successfully
-2019-08-02 16:08:368 INFO  TestBase:142 - capturing ui navigation screen
-2019-08-02 16:08:312 INFO  VerificationHelper:22 - element is Displayed..
-2019-08-02 16:08:346 INFO  LoginPage:50 - Entering email address: hrishikesh.b
-2019-08-02 16:08:476 INFO  LoginPage:56 - Entering password: Canada@2292
-2019-08-02 16:08:633 INFO  LoginPage:62 - Clicking on submit button
-2019-08-02 16:08:488 INFO  AlertHelper:17 - AlertHelper object is craeted..
-2019-08-02 16:08:495 INFO  AlertHelper:44 - Alert is present
-2019-08-02 16:08:503 INFO  AlertHelper:21 - Alert test: You are getting this message because of one of the following reasons:
+2019-08-02 18:08:692 INFO  TestBase:110 - Initialize Web driver: 712974096
+2019-08-02 18:08:698 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-02 18:08:699 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2019-08-02 18:08:708 INFO  WaitHelper:142 - Waiting for page to load for: SECONDS seconds
+2019-08-02 18:08:711 INFO  WaitHelper:144 - Page is loaded.
+2019-08-02 18:08:223 INFO  TestBase:110 - Initialize Web driver: 1898325501
+2019-08-02 18:08:224 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-02 18:08:224 INFO  WaitHelper:38 - Implicit Wait has been set to: 120
+2019-08-02 18:08:234 INFO  WaitHelper:142 - Waiting for page to load for: SECONDS seconds
+2019-08-02 18:08:237 INFO  WaitHelper:144 - Page is loaded.
+2019-08-02 18:08:689 INFO  TestBase:61 - **************testLoginToApplicationStarted***************
+2019-08-02 18:08:732 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-02 18:08:790 INFO  WaitHelper:154 - waiting for :[[ChromeDriver: chrome on XP (a5f15bbd3b13fedca9cc559e2f224592)] -> xpath: //*[@id='inszoom_global']/img] for :200 seconds
+2019-08-02 18:08:846 INFO  WaitHelper:157 - element is visible now
+2019-08-02 18:08:847 INFO  LoginPage:40 - Homepage loaded successfully
+2019-08-02 18:08:847 INFO  TestBase:142 - capturing ui navigation screen
+2019-08-02 18:08:662 INFO  VerificationHelper:22 - element is Displayed..
+2019-08-02 18:08:693 INFO  LoginPage:50 - Entering email address: hrishikesh.b
+2019-08-02 18:08:817 INFO  LoginPage:56 - Entering password: Canada@2292
+2019-08-02 18:08:955 INFO  LoginPage:62 - Clicking on submit button
+2019-08-02 18:08:462 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2019-08-02 18:08:468 INFO  AlertHelper:44 - Alert is present
+2019-08-02 18:08:475 INFO  AlertHelper:21 - Alert test: You are getting this message because of one of the following reasons:
 
 1. Another user has logged in with the same login id that you are currently using.
 2. You or someone using your id is currently logged in on another computer.
@@ -28,13 +33,5 @@ Click OK: To login (this will create a new session for you and will not allow an
 Click Cancel: To exit.
 
 *Note - You need to be a 'Named License User' to use the system. More than one person cannot use the same.
-2019-08-02 16:08:515 INFO  AlertHelper:27 - Accepting Alert
-2019-08-02 16:08:838 INFO  TestBase:77 - **************testLoginToApplicationFinished***************
-2019-08-02 16:08:449 INFO  TestBase:61 - **************setDefaultDashboardPageStarted***************
-2019-08-02 16:08:461 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-02 16:08:463 INFO  WaitHelper:142 - Waiting for page to load for: SECONDS seconds
-2019-08-02 16:08:471 INFO  WaitHelper:144 - Page is loaded.
-2019-08-02 16:08:694 INFO  DashboardPage:74 - dashboard page is diaplayed
-2019-08-02 16:08:836 INFO  DashboardPage:60 - clicking on default dashboard setting
-2019-08-02 16:08:607 INFO  TestBase:77 - **************setDefaultDashboardPageFinished***************
-2019-08-02 16:08:701 INFO  TestBase:61 - **************clickOnRecentlyVisitedCaseFormStarted***************
+2019-08-02 18:08:484 INFO  AlertHelper:27 - Accepting Alert
+2019-08-02 18:08:421 INFO  TestBase:77 - **************testLoginToApplicationFinished***************

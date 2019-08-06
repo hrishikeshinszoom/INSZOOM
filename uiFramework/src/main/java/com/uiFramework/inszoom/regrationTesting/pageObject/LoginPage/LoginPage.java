@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.uiFramework.inszoom.regrationTesting.helper.alert.AlertHelper;
 import com.uiFramework.inszoom.regrationTesting.helper.assertion.VerificationHelper;
 import com.uiFramework.inszoom.regrationTesting.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.inszoom.regrationTesting.helper.logger.LoggerHelper;
