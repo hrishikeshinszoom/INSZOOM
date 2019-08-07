@@ -6,18 +6,4 @@
       <class name="com.uiFramework.inszoom.regrationTesting.FormsLoad.FormsRegression"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.uiFramework.inszoom.regrationTesting.FormsLoad.FormsRegression">
-        <methods>
-          <include name="ckeckAllFormsFromExcelFile"/>
-          <include name="clickOnRecentlyVisitedCaseForm"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.uiFramework.inszoom.regrationTesting.FormsLoad.FormsRegression -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

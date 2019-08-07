@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
-  <test name="RegrationSuite(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test name="UnitTestingTool">
     <classes>
-      <class name="com.uiFramework.inszoom.regrationTesting.testScripts.RegrationSuite">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="formsUtilityFunctionsCheck"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.uiFramework.inszoom.regrationTesting.testScripts.RegrationSuite -->
+      <class name="com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool"/>
     </classes>
-  </test> <!-- RegrationSuite(failed) -->
+  </test> <!-- UnitTestingTool -->
 </suite> <!-- Failed suite [Regression Suite] -->

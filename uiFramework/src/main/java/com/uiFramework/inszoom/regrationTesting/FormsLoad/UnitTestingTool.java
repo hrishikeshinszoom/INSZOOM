@@ -11,10 +11,10 @@ import com.uiFramework.inszoom.regrationTesting.pageObject.dashboardPage.Dashboa
 import com.uiFramework.inszoom.regrationTesting.pageObject.formsPage.RecentlyVisitedCaseFormsPage;
 import com.uiFramework.inszoom.regrationTesting.testbase.TestBase;
 
-public class FormsRegression extends TestBase {
+public class UnitTestingTool extends TestBase {
 
-	@Test(priority = 1)
-	public void testLoginToApplication() throws Exception {
+	@Test
+	public void testFormsInAllHostedServers() throws Exception {
 
 		getApplicationUrl(ObjectReader.reader.getUrl());
 
@@ -26,26 +26,25 @@ public class FormsRegression extends TestBase {
 		login.loginToApplication(ObjectReader.reader.getUserName(), ObjectReader.reader.getPassword());
 		AlertHelper alertHelper = new AlertHelper(driver);
 		alertHelper.acceptAlertIfPresent();
-	}
-	
-	@Test(priority = 2)
-	public void setDefaultDashboardPage() {
-
+		
+		/**
+		 * com.uiFramework.inszoom.regrationTesting.pageObject.dashboardPage
+		 */
 		DashboardPage dashboardPage = new DashboardPage(driver);
 		dashboardPage.setDefaultHomePage();
-	}
-	
-	@Test(priority = 3)
-	public void clickOnRecentlyVisitedCaseForm() {
-
+		
+		/**
+		 * com.uiFramework.inszoom.regrationTesting.pageObject.formsPage
+		 */
 		RecentlyVisitedCaseFormsPage recent = new RecentlyVisitedCaseFormsPage(driver);
 		recent.clickOnRecentlyVisitedForm();
-	}
-	
-	@Test(priority = 4)
-	public void ckeckAllFormsFromExcelFile() {
+		
+		/**
+		 * com.uiFramework.inszoom.regrationTesting.FormsLoad.pageObject.AddFormsFromExcel
+		 */
 		LoadFormsFromExcel load = new LoadFormsFromExcel(driver);
 		load.loadFormsListFromExcel("I-131");
 	}
+	
 	
 }

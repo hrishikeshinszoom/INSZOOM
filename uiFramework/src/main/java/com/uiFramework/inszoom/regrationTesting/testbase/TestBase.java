@@ -17,6 +17,7 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -69,8 +70,6 @@ public class TestBase {
 			test.addScreenCaptureFromPath(imagePath);
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(Status.PASS, result.getName() + " is pass");
-			String imagePath = captureScreen(result.getName(), driver);
-			test.addScreenCaptureFromPath(imagePath);
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			test.log(Status.SKIP, result.getThrowable());
 		}
@@ -78,12 +77,12 @@ public class TestBase {
 		extent.flush();
 	}
 
-	/*@AfterSuite
+	@AfterSuite
 	public void afterTest() throws Exception {
 		if (driver != null) {
 			driver.quit();
 		}
-	}*/
+	}
 
 	public WebDriver getBrowserObject(BrowserType btype) throws Exception {
 		try {

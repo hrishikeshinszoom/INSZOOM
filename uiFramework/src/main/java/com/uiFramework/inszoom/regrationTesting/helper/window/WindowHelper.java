@@ -20,10 +20,13 @@ public class WindowHelper {
 
 	/**
 	 * This method will switch to parent window
+	 * @return 
+	 * @return 
 	 */
-	public void switchToParentWindow() {
-		log.info("switching to parent window...");
-		driver.switchTo().defaultContent();
+	public String  getMainWindowID() {
+		log.info("Get current window ID...");
+		String parentWindow = driver.getWindowHandle();
+		return parentWindow;
 	}
 
 	/**
@@ -35,7 +38,7 @@ public class WindowHelper {
 		int i = 1;
 		for (String window : windows) {
 			if (i == index) {
-				log.info("switched to : " + index + " window");
+//				log.info("switched to : " + index + " window");
 				driver.switchTo().window(window);
 			} else {
 				i++;

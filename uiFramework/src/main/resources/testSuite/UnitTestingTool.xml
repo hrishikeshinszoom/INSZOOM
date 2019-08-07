@@ -8,9 +8,9 @@
         <listener class-name="com.uiFramework.inszoom.regrationTesting.helper.listener.ExtentListener"></listener>
     </listeners> -->
    
-    <test name="RegrationSuite" >
+    <test name="UnitTestingTool" >
         <classes>
-            <class name="com.uiFramework.inszoom.regrationTesting.testScripts.RegrationSuite"></class>
+            <class name="com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool"></class>
         </classes>
     </test>
     

@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.inszoom.regrationTesting.helper.logger.LoggerHelper;
-import com.uiFramework.inszoom.regrationTesting.helper.window.WindowHelper;
 import com.uiFramework.inszoom.regrationTesting.testbase.TestBase;
 
 public class RecentlyVisitedCaseFormsPage {
@@ -31,7 +30,5 @@ public class RecentlyVisitedCaseFormsPage {
 
 	public void clickOnRecentlyVisitedForm() {
 		clickOnFirstForm();
-		/*WindowHelper window = new WindowHelper(driver);
-		window.closeAllTabsAndSwitchToMainWindow();*/
 	}
 }
