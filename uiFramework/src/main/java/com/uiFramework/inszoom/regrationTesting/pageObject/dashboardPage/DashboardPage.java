@@ -25,6 +25,9 @@ public class DashboardPage {
 
 	@FindBy(xpath = ".//span[text()='My ZoomBoard']")
 	WebElement returnToDashboard;
+	
+	@FindBy(xpath = "//*[@id='site-aside-wrap']/aside/a[2]/span[2]")
+	WebElement clickOnZoomboard;
 
 	@FindBy(xpath = ".//span[text()='Collapse']")
 	WebElement Collapse2;
@@ -49,6 +52,7 @@ public class DashboardPage {
 		PageFactory.initElements(driver, this);
 		waitHelper = new WaitHelper(driver);
 		waitHelper.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);
+		log.info("Dashboard Page loading compelete");
 		TestBase.logExtentReport("Dashboard Page loading compelete");
 	}
 
@@ -73,6 +77,7 @@ public class DashboardPage {
 		if (driver.getPageSource().contains("MY ZOOMBOARD")) {
 			log.info("dashboard page is diaplayed");
 			Collapse2.click();
+			clickOnZoomboard.click();
 			ClickOnDefaultSettings();
 
 		} else {

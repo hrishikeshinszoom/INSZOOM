@@ -24,6 +24,9 @@ public class LoadFormsFromExcel {
 	WindowHelper window;
 	String parentWindow;
 	
+	@FindBy(xpath = "//table[starts-with(@summary,'Case Forms for ')]/tbody/tr[1]/td/table/tbody/tr/td[2]")
+	WebElement casePageLoadSuccess;
+	
 	@FindBy(xpath = "//*[@id='frmCaseFrms']/table/tbody/tr/td[2]/table[2]/tbody/tr[2]/td/div/table/tbody/tr/td[1]/table/tbody/tr/td/a/img")
 	WebElement AddFormsBTN;
 
@@ -46,8 +49,10 @@ public class LoadFormsFromExcel {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		WaitHelper waitHelper = new WaitHelper(driver);
-		waitHelper.pageLoadTime(ObjectReader.reader.getPageLoadTime(), TimeUnit.SECONDS);
-		TestBase.logExtentReport("Case/Forms Page loading compelete");
+		waitHelper.waitForElement(casePageLoadSuccess, ObjectReader.reader.getExplicitWait());
+		log.info("Case forms page loading compelete");
+		new TestBase().getNavigationScreen(driver);
+		TestBase.logExtentReport("Case forms page loading compelete");
 	}
 
 	public void clickOnAddFormsBTN() {
@@ -68,7 +73,7 @@ public class LoadFormsFromExcel {
 		clickOnFindBTN.click();
 	}
 
-	public void linkingFormsBasedOnSearch(String formIDs) {
+	public void linkingFormsBasedOnSearch(String load) {
 		log.info("Linking from the search result..");
 
 		List<WebElement> list = driver.findElements(By.xpath("//table[@summary='Search Results']/tbody/tr/td[2]/b"));
@@ -81,7 +86,7 @@ public class LoadFormsFromExcel {
 			forms_list.add(formName);
 		}
 
-		int form_index = forms_list.indexOf(formIDs);
+		int form_index = forms_list.indexOf(load);
 
 		String xpath1 = "//table[@summary='Search Results']/tbody/tr[";
 
@@ -94,18 +99,54 @@ public class LoadFormsFromExcel {
 		driver.findElement(By.xpath(string4)).click();
 		
 	}
-
+	
 	public void clickOnSaveAndClose() {
 		log.info("Clicking on save button..");
 		clickOnSaveAndCloseBTN.click();
 		driver.switchTo().window(parentWindow);
 	}
+	
+	public void loadFormsBasedOnbSearch(String load) {
+		log.info("Loading from based on search result..");
+		
+		List<WebElement> listOfRows = driver.findElements(By.xpath("//table[starts-with(@summary,'Case Forms for ')]/tbody/tr[*]/td[2]/table/tbody/tr[1]/td/b"));
+		
+		List<String> forms = new ArrayList<String>();
 
-	public void loadFormsListFromExcel(String formIDs) {
+		for (int i = 0; i < listOfRows.size(); i++) {
+
+			String formName = listOfRows.get(i).getText();
+			forms.add(formName);
+
+		}
+
+		int form_index1 = forms.lastIndexOf(load);
+
+		String path1 = "//table[starts-with(@summary,'Case Forms for ')]/tbody/tr[";
+
+		int path2 = form_index1 + 3;
+
+		String path3 = "]/td[4]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/select/option[4]";
+
+		String path4 = path1 + path2 + path3;
+		
+		String path5 = "//table[starts-with(@summary,'Case Forms for ')]/tbody/tr[";
+		
+		String path6 = "]/td[4]/table/tbody/tr[2]/td/table/tbody/tr/td[2]/a/img";
+		
+		String path7 = path5 + path2 + path6;
+
+		driver.findElement(By.xpath(path4)).click();
+		driver.findElement(By.xpath(path7)).click();
+		
+	}
+	
+	public void loadFormsListFromExcel(String load) {
 		clickOnAddFormsBTN();
-		addForms(formIDs);
+		addForms(load);
 		clickOnFindButton();
-		linkingFormsBasedOnSearch(formIDs);
+		linkingFormsBasedOnSearch(load);
 		clickOnSaveAndClose();
+		loadFormsBasedOnbSearch(load);
 	}
 }

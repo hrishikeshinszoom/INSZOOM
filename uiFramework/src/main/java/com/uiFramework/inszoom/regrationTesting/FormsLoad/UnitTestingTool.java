@@ -17,7 +17,10 @@ public class UnitTestingTool extends TestBase {
 	public void testFormsInAllHostedServers() throws Exception {
 
 		getApplicationUrl(ObjectReader.reader.getUrl());
-
+		
+		/**
+		 * com.uiFramework.inszoom.regrationTesting.pageObject.LoginPage
+		 */
 		LoginPage login = new LoginPage(driver);
 
 		boolean status = login.verifyLoginPage();
@@ -44,6 +47,12 @@ public class UnitTestingTool extends TestBase {
 		 */
 		LoadFormsFromExcel load = new LoadFormsFromExcel(driver);
 		load.loadFormsListFromExcel("I-131");
+		
+		/**
+		 * 
+		 */
+		
+		
 	}
 	
 	

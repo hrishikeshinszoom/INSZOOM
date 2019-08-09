@@ -22,7 +22,6 @@ public class FormsUtilityPage {
 
 	private Logger log = LoggerHelper.getLogger(FormsUtilityPage.class);
 	private WebDriver driver;
-	TestBase test;
 
 	@FindBy(xpath = "//*[@id='ComboBoxAction' and @name='optFrmUtil']")
 	WebElement clickOnFormUtility;
@@ -58,12 +57,6 @@ public class FormsUtilityPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
-	/*
-	 *  public void clickOnFormUtility() {
-	 *  dropdown = new DropDownHelper(driver);
-	 *  System.out.println(dropdown.getAllDropDownData(clickOnFormUtility)); }
-	 */
 
 	/**
 	 * This method will check Fast Form buttons which includes: Font Type, Font
@@ -104,13 +97,6 @@ public class FormsUtilityPage {
 			AssertionHelper.markPass();
 		}
 		
-		/*try {
-			Thread.sleep(5000);
-			test.getNavigationScreen(driver);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}*/
-		
 		log.info("clickin on Save button");
 		java.clickElement(clickOnSaveFF);
 		
@@ -127,7 +113,7 @@ public class FormsUtilityPage {
 		try {
 			window.switchToWindow(1);
 			Thread.sleep(5000);
-			test.getNavigationScreen(driver);
+			new TestBase().getNavigationScreen(driver);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

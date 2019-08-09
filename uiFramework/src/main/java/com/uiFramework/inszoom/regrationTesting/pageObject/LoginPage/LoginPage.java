@@ -36,9 +36,9 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 		waitHelper = new WaitHelper(driver);
 		waitHelper.waitForElement(homepageLoadSuccess, ObjectReader.reader.getExplicitWait());
-		log.info("Homepage loaded successfully");
+		log.info("Homepage page loading compelete");
 		new TestBase().getNavigationScreen(driver);
-		TestBase.logExtentReport("Homepage loaded successfully");
+		TestBase.logExtentReport("Homepage page loading compelete");
 	}
 
 	public boolean verifyLoginPage() {

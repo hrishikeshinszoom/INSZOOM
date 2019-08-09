@@ -1,21 +1,21 @@
-2019-08-07 13:08:973 INFO  TestBase:109 - Initialize Web driver: 2017085051
-2019-08-07 13:08:977 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-07 13:08:977 INFO  WaitHelper:37 - Implicit Wait has been set to: 120
-2019-08-07 13:08:984 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
-2019-08-07 13:08:988 INFO  WaitHelper:140 - Page is loaded.
-2019-08-07 13:08:176 INFO  TestBase:62 - **************testFormsInAllHostedServersStarted***************
-2019-08-07 13:08:642 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-07 13:08:671 INFO  WaitHelper:149 - waiting for :[[ChromeDriver: chrome on XP (2c91b20dc6d80023affbacb88335295f)] -> xpath: //*[@id='inszoom_global']/img] for :200 seconds
-2019-08-07 13:08:716 INFO  WaitHelper:152 - element is visible now
-2019-08-07 13:08:716 INFO  LoginPage:39 - Homepage loaded successfully
-2019-08-07 13:08:716 INFO  TestBase:141 - capturing ui navigation screen
-2019-08-07 13:08:476 INFO  VerificationHelper:22 - element is Displayed..
-2019-08-07 13:08:502 INFO  LoginPage:49 - Entering email address: hrishikesh.b
-2019-08-07 13:08:606 INFO  LoginPage:55 - Entering password: Canada@2292
-2019-08-07 13:08:715 INFO  LoginPage:61 - Clicking on submit button
-2019-08-07 13:08:324 INFO  AlertHelper:17 - AlertHelper object is craeted..
-2019-08-07 13:08:331 INFO  AlertHelper:44 - Alert is present
-2019-08-07 13:08:337 INFO  AlertHelper:21 - Alert test: You are getting this message because of one of the following reasons:
+2019-08-08 18:08:482 INFO  TestBase:109 - Initialize Web driver: 2108763062
+2019-08-08 18:08:486 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-08 18:08:486 INFO  WaitHelper:37 - Implicit Wait has been set to: 120
+2019-08-08 18:08:493 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
+2019-08-08 18:08:497 INFO  WaitHelper:140 - Page is loaded.
+2019-08-08 18:08:641 INFO  TestBase:62 - **************testFormsInAllHostedServersStarted***************
+2019-08-08 18:08:493 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-08 18:08:543 INFO  WaitHelper:149 - waiting for :[[ChromeDriver: chrome on XP (2b3a48a596fbbd2fbc379720d3e899e6)] -> xpath: //*[@id='inszoom_global']/img] for :200 seconds
+2019-08-08 18:08:582 INFO  WaitHelper:152 - element is visible now
+2019-08-08 18:08:582 INFO  LoginPage:39 - Homepage loaded successfully
+2019-08-08 18:08:583 INFO  TestBase:141 - capturing ui navigation screen
+2019-08-08 18:08:383 INFO  VerificationHelper:22 - element is Displayed..
+2019-08-08 18:08:418 INFO  LoginPage:49 - Entering email address: hrishikesh.b
+2019-08-08 18:08:570 INFO  LoginPage:55 - Entering password: Canada@2292
+2019-08-08 18:08:706 INFO  LoginPage:61 - Clicking on submit button
+2019-08-08 18:08:260 INFO  AlertHelper:17 - AlertHelper object is craeted..
+2019-08-08 18:08:266 INFO  AlertHelper:44 - Alert is present
+2019-08-08 18:08:273 INFO  AlertHelper:21 - Alert test: You are getting this message because of one of the following reasons:
 
 1. Another user has logged in with the same login id that you are currently using.
 2. You or someone using your id is currently logged in on another computer.
@@ -28,19 +28,20 @@ Click OK: To login (this will create a new session for you and will not allow an
 Click Cancel: To exit.
 
 *Note - You need to be a 'Named License User' to use the system. More than one person cannot use the same.
-2019-08-07 13:08:346 INFO  AlertHelper:27 - Accepting Alert
-2019-08-07 13:08:349 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-07 13:08:350 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
-2019-08-07 13:08:356 INFO  WaitHelper:140 - Page is loaded.
-2019-08-07 13:08:158 INFO  DashboardPage:74 - dashboard page is diaplayed
-2019-08-07 13:08:283 INFO  DashboardPage:60 - clicking on default dashboard setting
-2019-08-07 13:08:792 INFO  RecentlyVisitedCaseFormsPage:27 - Clicking on First linked form where form_disp_id= I-129 - Geetha Ramu
-2019-08-07 13:08:992 INFO  WaitHelper:28 - WaitHelper object created.
-2019-08-07 13:08:993 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
-2019-08-07 13:08:997 INFO  WaitHelper:140 - Page is loaded.
-2019-08-07 13:08:998 INFO  LoadFormsFromExcel:54 - clicking on add forms button..
-2019-08-07 13:08:288 INFO  LoadFormsFromExcel:62 - Taking forms list from Excel File..
-2019-08-07 13:08:614 INFO  LoadFormsFromExcel:67 - Clicking on find button..
-2019-08-07 13:08:157 INFO  LoadFormsFromExcel:72 - Linking from the search result..
-2019-08-07 13:08:325 INFO  LoadFormsFromExcel:99 - Clicking on save button..
-2019-08-07 13:08:920 INFO  TestBase:76 - **************testFormsInAllHostedServersFinished***************
+2019-08-08 18:08:287 INFO  AlertHelper:27 - Accepting Alert
+2019-08-08 18:08:290 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-08 18:08:290 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
+2019-08-08 18:08:295 INFO  WaitHelper:140 - Page is loaded.
+2019-08-08 18:08:57 INFO  DashboardPage:74 - dashboard page is diaplayed
+2019-08-08 18:08:186 INFO  DashboardPage:60 - clicking on default dashboard setting
+2019-08-08 18:08:123 INFO  RecentlyVisitedCaseFormsPage:27 - Clicking on First linked form where form_disp_id= I-864 - Pathan Tasneem1
+2019-08-08 18:08:957 INFO  WaitHelper:28 - WaitHelper object created.
+2019-08-08 18:08:957 INFO  WaitHelper:138 - Waiting for page to load for: SECONDS seconds
+2019-08-08 18:08:961 INFO  WaitHelper:140 - Page is loaded.
+2019-08-08 18:08:962 INFO  LoadFormsFromExcel:53 - clicking on add forms button..
+2019-08-08 18:08:571 INFO  LoadFormsFromExcel:61 - Taking forms list from Excel File..
+2019-08-08 18:08:67 INFO  LoadFormsFromExcel:66 - Clicking on find button..
+2019-08-08 18:08:162 INFO  LoadFormsFromExcel:71 - Linking from the search result..
+2019-08-08 18:08:315 INFO  LoadFormsFromExcel:98 - Clicking on save button..
+2019-08-08 18:08:318 INFO  LoadFormsFromExcel:104 - Loading from based on search result..
+2019-08-08 18:08:19 INFO  TestBase:76 - **************testFormsInAllHostedServersFinished***************

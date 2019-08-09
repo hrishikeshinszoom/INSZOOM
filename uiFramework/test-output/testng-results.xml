@@ -5,23 +5,23 @@
       <![CDATA[captureScreen method called]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_07_08_2019_01_27.png'><img src='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_07_08_2019_01_27.png'height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_08_08_2019_06_20.png'><img src='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_08_08_2019_06_20.png'height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="51355" started-at="2019-08-07T07:57:00Z" finished-at="2019-08-07T07:57:52Z">
+  <suite name="Regression Suite" duration-ms="55944" started-at="2019-08-08T12:50:27Z" finished-at="2019-08-08T12:51:23Z">
     <groups>
     </groups>
-    <test name="UnitTestingTool" duration-ms="51355" started-at="2019-08-07T07:57:00Z" finished-at="2019-08-07T07:57:52Z">
+    <test name="UnitTestingTool" duration-ms="55944" started-at="2019-08-08T12:50:27Z" finished-at="2019-08-08T12:51:23Z">
       <class name="com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="beforeSuite" is-config="true" duration-ms="230" started-at="2019-08-07T13:27:00Z" finished-at="2019-08-07T13:27:00Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94]" name="beforeSuite" is-config="true" duration-ms="142" started-at="2019-08-08T18:20:27Z" finished-at="2019-08-08T18:20:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="beforeTest" is-config="true" duration-ms="4249" started-at="2019-08-07T13:27:00Z" finished-at="2019-08-07T13:27:05Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94]" name="beforeTest" is-config="true" duration-ms="4140" started-at="2019-08-08T18:20:27Z" finished-at="2019-08-08T18:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-08-07T13:27:05Z" finished-at="2019-08-07T13:27:05Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-08-08T18:20:31Z" finished-at="2019-08-08T18:20:31Z">
           <params>
             <param index="0">
               <value>
@@ -32,31 +32,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testFormsInAllHostedServers()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="testFormsInAllHostedServers" duration-ms="46741" started-at="2019-08-07T13:27:05Z" finished-at="2019-08-07T13:27:51Z">
+        <test-method status="PASS" signature="testFormsInAllHostedServers()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94]" name="testFormsInAllHostedServers" duration-ms="51376" started-at="2019-08-08T18:20:31Z" finished-at="2019-08-08T18:21:23Z">
           <reporter-output>
             <line>
               <![CDATA[captureScreen method called]]>
             </line>
             <line>
-              <![CDATA[<a href='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_07_08_2019_01_27.png'><img src='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_07_08_2019_01_27.png'height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_08_08_2019_06_20.png'><img src='C:\Users\insind948\git\uiFramework\src\main\resources\screenShots\blank_08_08_2019_06_20.png'height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- testFormsInAllHostedServers -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="afterMethod" is-config="true" duration-ms="330" started-at="2019-08-07T13:27:51Z" finished-at="2019-08-07T13:27:52Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94]" name="afterMethod" is-config="true" duration-ms="413" started-at="2019-08-08T18:21:23Z" finished-at="2019-08-08T18:21:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFormsInAllHostedServers status=SUCCESS method=UnitTestingTool.testFormsInAllHostedServers()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5] output=captureScreen method called]]]>
+                <![CDATA[[TestResult name=testFormsInAllHostedServers status=SUCCESS method=UnitTestingTool.testFormsInAllHostedServers()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@3551a94] output=captureScreen method called]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool@531be3c5]" name="afterTest" is-config="true" duration-ms="693" started-at="2019-08-07T13:27:52Z" finished-at="2019-08-07T13:27:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
       </class> <!-- com.uiFramework.inszoom.regrationTesting.FormsLoad.UnitTestingTool -->
     </test> <!-- UnitTestingTool -->
   </suite> <!-- Regression Suite -->

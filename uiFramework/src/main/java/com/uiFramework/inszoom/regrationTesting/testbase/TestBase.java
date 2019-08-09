@@ -77,12 +77,12 @@ public class TestBase {
 		extent.flush();
 	}
 
-	@AfterSuite
+	/*@AfterSuite
 	public void afterTest() throws Exception {
 		if (driver != null) {
 			driver.quit();
 		}
-	}
+	}*/
 
 	public WebDriver getBrowserObject(BrowserType btype) throws Exception {
 		try {
